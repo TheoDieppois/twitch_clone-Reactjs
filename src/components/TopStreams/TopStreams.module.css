@@ -1,0 +1,14 @@
+.TitreGames {
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 300;
+    padding-left: 260px;
+    padding-bottom: 50px;
+}
+
+.FlexAccueil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 260px;
+}

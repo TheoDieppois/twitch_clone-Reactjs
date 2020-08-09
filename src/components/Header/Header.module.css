@@ -1,0 +1,113 @@
+.HeaderTop {
+    background: #6441A4;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.ListeMenu {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.LiensNav {
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.LiensNav:nth-child(4) {
+    margin: auto;
+    flex-shrink: 1;
+    width: 600px;
+}
+
+.Logo {
+    margin-top: 5px;
+}
+
+.FormSubmit {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.LogoLoupe {
+    width: 20px;
+}
+
+.InputRecherche {
+    width: 50%;
+    background: #fff;
+    border: 2px solid #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.LiensNav button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 4px 20px;
+    border: none;
+}
+
+.MenuResBtn {
+    display: none;
+    position: fixed;
+    top : 10px;
+    right : 20px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.MenuIco {
+    width: 25px;
+}
+
+.Lien {
+    color: #fff;
+    cursor : pointer;
+    text-decoration: none;
+}
+
+.Lien:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 950px) {
+    .LiensNav:nth-child(4) {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .ListeMenu {
+        flex-direction: column;
+        height: 250px;
+        padding-top: 50px;
+    }
+
+    .LiensNav {
+        height: 100px;
+        background: #6441a4;
+        width: 100%;
+    }
+
+    .LiensNav:nth-child(4) {
+        width: 100% !important;
+        padding: 10px 0 20px 0;
+    }
+
+    .FormSubmit {
+        justify-content: center;
+    }
+
+    .MenuResBtn {
+        display: block !important;
+        z-index: 1000;
+    }
+}

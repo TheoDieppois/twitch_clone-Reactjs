@@ -1,0 +1,57 @@
+.ContainerFlexSidebar {
+    padding: 10px 15px 8px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.ContainerFlexSidebar:hover {
+    background: rgba(255,255,255, .2);
+}
+
+.ProfilePicRound {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.StreamUser {
+    color: #f1f1f1;
+    flex-basis: 50%;
+    overflow: hidden;
+    text-align: left;
+}
+
+.ViewerRight {
+    color: #aeabb6;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.PointRouge {
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    margin-top: 6px;
+    margin-right: 3px;
+    background: crimson;
+}
+
+.GameNameSidebar {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #aeabb6;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.Lien {
+    color: #fff;
+    cursor : pointer;
+    text-decoration: none;
+}

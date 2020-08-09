@@ -1,0 +1,79 @@
+.CardStream {
+    height: 420px;
+    width: 320px;
+    margin: 0 30px 30px 0;
+    transition: all .4s;
+    border-radius: 10px;
+    box-shadow: 2px 11px 36px -16px rgba(0,0,0,.75);
+}
+
+.CardStream:hover {
+    transform: translateY(-5px);
+}
+
+.ImgCarte {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.CardBodyStream {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.TitleCardStream {
+    font-size: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    font-weight: 500;
+}
+
+.TextStream {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.TextStream:first-of-type {
+   font-weight: bold;
+}
+
+.Viewers {
+    margin-bottom: 20px;
+}
+
+.BtnCard {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #212529;
+    font-size: 14px;
+    line-height: 1.125;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.BtnCard:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width : 559px) {
+    .CardStream {
+        margin: 0 0 30px 0;
+    }
+}

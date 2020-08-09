@@ -1,0 +1,38 @@
+.TitreGames {
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 300;
+    padding-left: 260px;
+    padding-bottom: 50px;
+}
+
+.FlexAccueil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 260px;
+}
+
+@media screen and (max-width : 1200px) {
+    .TitreGames {
+        padding-left: 0;
+    }
+
+    .FlexAccueil {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width : 559px) {
+    .TitreGames {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width : 559px) {
+    
+    .FlexAccueil {
+        padding-left: 0;
+    }
+}
+

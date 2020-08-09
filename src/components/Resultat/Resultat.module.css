@@ -1,0 +1,101 @@
+.ContainerDecaleResultats {
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-left: 239px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContainerDecaleResultats h4 {
+   padding-top: 50px;
+   padding-bottom: 20px;
+   font-size: 24px;
+}
+
+.CardResults {
+    height: 580px;
+    width: 350px;
+    margin-bottom: 35px;
+    position: relative;
+    transition: all .4s;
+    border-radius: 10px;
+    box-shadow: 2px 11px 36px -16px rgba(0, 0, 0, .75);
+    margin-top: 20px;
+}
+
+.ImgCard {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.CardBodyResults {
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BtnResult {
+    align-self: flex-end;
+    background: rgb(255, 191, 0);
+    color: #000;
+    font-size: 17px;
+    
+
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.125;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.TitleCardStream {
+    font-size: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    font-weight: 500;
+}
+
+.TxtResult {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.Lien {
+    color: #fff;
+    cursor : pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 1200px) {
+    .ContainerDecaleResultats {
+        overflow-x: hidden;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .ContainerDecaleResultats h4 {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .ContainerDecaleResultats h4 {
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .CardResults {
+        height: 580px;
+        width: 300px;
+    }
+}

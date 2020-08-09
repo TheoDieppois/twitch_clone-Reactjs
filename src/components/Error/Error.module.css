@@ -1,0 +1,33 @@
+.ContainerDecaleResults {
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-left: 239px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContainerDecaleResults h4 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+@media screen and (max-width : 1200px) {
+    .ContainerDecaleResults {
+        overflow-x: hidden;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .ContainerDecaleResults h4 {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .ContainerDecaleResults h4 {
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+}
